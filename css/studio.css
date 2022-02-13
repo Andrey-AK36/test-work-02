@@ -1,0 +1,44 @@
+/*так можно написать в файле CSS комментарий*/
+
+/* ctrl+слэш создаёт комментарий */
+
+.hero-botton:hover,
+.hero-botton:focus {
+  background-color: var(--color-link);
+  color: var(--color-button-text);
+  cursor: pointer;
+}
+.hero-botton {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.title-three {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.title-two {
+  font-size: 36px;
+}
+.employee {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.human {
+  background-color: #f5f4fa;
+}
+h2 {
+  text-align: center;
+  font-weight: 700;
+}

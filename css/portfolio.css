@@ -1,0 +1,27 @@
+.project {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--color-text);
+}
+.botton:hover,
+.botton:focus {
+  background-color: var(--color-link);
+  color: var(--color-button-text);
+  cursor: pointer;
+  font-family: inherit;
+}
+.botton {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  font-family: inherit;
+}
+h2 {
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}

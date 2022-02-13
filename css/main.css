@@ -1,0 +1,77 @@
+:root {
+  --color-link: #2196f3;
+  --color-text: #757575;
+  --color-button-text: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  background-color: #fff;
+  line-height: 1.17;
+}
+.logo {
+  font-family: 'Raleway', serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.text {
+  color: var(--color-text);
+  line-height: 1.71;
+  font-size: 14px;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+.adr-header {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.71;
+}
+.adr-footer {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+footer {
+  background-color: #2f303a;
+  letter-spacing: 0.03em;
+}
+footer > a {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.current {
+  color: red;
+}
+.accent {
+  color: var(--color-link);
+}
+.link:hover,
+.link:focus {
+  color: var(--color-link);
+}
+.link {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  letter-spacing: 0.02em;
+}
+main {
+  letter-spacing: 0.03em;
+}
+.employee-position {
+  line-height: 1.19;
+  color: var(--color-text);
+  font-size: 16px;
+}
